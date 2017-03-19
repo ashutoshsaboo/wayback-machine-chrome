@@ -13,7 +13,9 @@
     "http://*/*",
     "https://*/*",
     "*://*/*",
-    "<all_urls>"
+    "<all_urls>",
+    "tabs",
+    "http://*.facebook.com/*"
   ],
   "background": {
     "scripts": ["scripts/background.js"]
